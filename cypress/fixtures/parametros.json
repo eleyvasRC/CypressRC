@@ -1,0 +1,38 @@
+{
+  "ambiente":
+    {
+    "url_amb": "https://hydra.qa.rcontrol.com.mx/User/LogOut"
+    },
+  "credenciales":
+    {
+    "user": "admin_ayvi",
+    "password": "Password13$"
+    },
+
+  "planeacion":
+    {        
+    "carga_citas": "APPOINTMENT_LOAD",
+    "carga_citas_manual": "MANUAL_APPOINTMENT_LOAD"
+    },
+  "eventos":
+    {        
+    "entrada": "ENTRANCEs",
+    "inic_carga": "START_LOAD",
+    "fin_carga": "ENTRANCE",
+    "docs": "ENTRANCE",
+    "salida": "ENTRANCE"
+    },
+    "inputs_entrada":
+    {
+      "credencial_condutor": "70525",
+      "shipment": "EST001"
+    },
+
+  "archivos":
+    {
+    "carga_citas_txt_": "Citas_pruebas_qa.txt",
+    "carga_citas_txt": "Carga_citas_ayvi.txt",
+    "nume": "5",
+    "nume2": "4"
+    }
+}
