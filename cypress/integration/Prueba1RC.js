@@ -59,7 +59,7 @@ it('Ingresar a pagina RC conn credenciales correctas', function(){
     
     //Buscar shipment a asignar
      cy.get('.container').as('Tabla')
-     cy.get('td.sorting_1').contains('TEST060701')
+     cy.get('td.sorting_1').contains('EST0023')
      .siblings()
      .get("td")
      .contains("button", " Asignar LT")

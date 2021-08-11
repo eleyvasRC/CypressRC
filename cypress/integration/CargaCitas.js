@@ -105,7 +105,7 @@ describe('CP Para carga de citas parametrizadas', function()
          cy.get(':nth-child(4) > .login100-form-btn').click()
 
         //Ingresar a módulo Carga de citas
-        cy.get('.has_sub a[href*="feature_key='+this.param.eventos.carga_citas+'"]').click({ force: true })
+        cy.get('.has_sub a[href*="feature_key='+this.param.planeacion.carga_citas+'"]').click({ force: true })
 
         //cy.reload()
         

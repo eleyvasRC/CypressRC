@@ -6,7 +6,7 @@
   "credenciales":
     {
     "user": "admin_ayvi",
-    "password": "Password12$"
+    "password": "Password123$"
     },
 
   "planeacion":
@@ -16,18 +16,12 @@
     },
   "eventos":
     {        
-    "entrada": "ENTRANCEs",
+    "entrada": "ENTRANCE",
     "inic_carga": "START_LOAD",
     "fin_carga": "ENTRANCE",
     "docs": "ENTRANCE",
     "salida": "ENTRANCE"
     },
-    "inputs_entrada":
-    {
-      "credencial_condutor": "70525",
-      "shipment": "EST001"
-    },
-
   "archivos":
     {
     "carga_citas_txt_": "Citas_pruebas_qa.txt",

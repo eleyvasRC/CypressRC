@@ -1,0 +1,8 @@
+{
+    "inputs_entrada":
+        {
+        "credencial_condutor": "70525",
+        "shipment": "ESTEBAN0312",
+        "eco_caja": "123"
+        }
+}
