@@ -1,0 +1,18 @@
+{
+    "inputs_entrada":
+        {
+        "credencial_condutor": ["ayvi", "demo", "nestle"],
+        "shipment": ["ayvi", "demo", "nestle"],
+        "eco_caja": ["ayvi", "demo", "nestle"],
+        "aux_1": ["ayvi", "demo", "nestle"],
+        "aux_2": ["ayvi", "demo", "nestle"],
+        "aux_3": ["ayvi", "demo", "nestle"],
+        "aux_4": ["ayvi"]
+        }, 
+    "inputs_ini_carga":
+        {
+        "credencial_condutor": "70525",
+        "shipment": "ESTEBAN0401",
+        "eco_caja": "123"
+        }
+}

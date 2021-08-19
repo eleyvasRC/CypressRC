@@ -9,11 +9,8 @@ describe('CP Para carga de citas parametrizadas', function()
         cy.fixture('parametros').then(function(param){
             this.param = param
             //cy.log(param.user)
-            
-            
-        //  cy.fixture(this.param)
-        
-        //cy.log(this.param.credenciales.url_amb)
+            //  cy.fixture(this.param)
+            //cy.log(this.param.credenciales.url_amb)
         })
     })
 
@@ -31,7 +28,7 @@ describe('CP Para carga de citas parametrizadas', function()
     })
 
     //CP Carga de citas exitosa
-       it('Prueba para carga de citas exitosas', function(){
+    it('Prueba para carga de citas exitosas', function(){
 
          //Ingresar credenciales 
          cy.get('#User').type(this.param.credenciales.user)
@@ -45,7 +42,7 @@ describe('CP Para carga de citas parametrizadas', function()
         cy.get('.has_sub a[href*="feature_key='+this.param.planeacion.carga_citas+'"]').click({ force: true })
 
         //Obtener nombre de txt
-        var fileName = this.param.archivos.carga_citas_txt;
+        var fileName = this.param.archivos.carga_citas_txt_ayvi;
         
         //Cargar txt en input de tipo file
         cy.log(fileName)
@@ -110,7 +107,7 @@ describe('CP Para carga de citas parametrizadas', function()
         //cy.reload()
         
         //Cargar txt
-        var fileName = this.param.archivos.carga_citas_txt_;
+        var fileName = this.param.archivos.carga_citas_txt_iron_demo;
        
         cy.log(fileName)
             cy.fixture(fileName).then(fileContent =>{

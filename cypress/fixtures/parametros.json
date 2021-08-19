@@ -1,4 +1,8 @@
 {
+  "cliente":
+    {
+      "nombre": "ayvi"
+    },
   "ambiente":
     {
     "url_amb": "https://hydra.qa.rcontrol.com.mx/User/LogOut"
@@ -20,12 +24,12 @@
     "inic_carga": "START_LOAD",
     "fin_carga": "ENTRANCE",
     "docs": "ENTRANCE",
-    "salida": "ENTRANCE"
+    "salida": "EXIT"
     },
   "archivos":
     {
-    "carga_citas_txt_": "Citas_pruebas_qa.txt",
-    "carga_citas_txt": "Carga_citas_ayvi.txt",
+    "carga_citas_txt_iron_demo": "Citas_pruebas_qa.txt",
+    "carga_citas_txt_ayvi": "Carga_citas_ayvi.txt",
     "nume": "5",
     "nume2": "4"
     }

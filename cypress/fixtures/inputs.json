@@ -2,7 +2,17 @@
     "inputs_entrada":
         {
         "credencial_condutor": "70525",
-        "shipment": "ESTEBAN0312",
+        "shipment": "ESTEBAN0401",
+        "eco_caja": "123",
+        "aux_1": "Pruebaazux",
+        "aux_2": "Pruebaazux2",
+        "aux_3": "Pruebaazux3",
+        "aux_4": "Pruebaazux4"
+        }, 
+    "inputs_ini_carga":
+        {
+        "credencial_condutor": "70525",
+        "shipment": "ESTEBAN0401",
         "eco_caja": "123"
         }
 }
