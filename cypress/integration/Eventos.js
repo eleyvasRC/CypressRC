@@ -11,6 +11,7 @@ describe('CP Detonación de eventos', function()
         })
     })
 
+
     beforeEach(() => { 
         //Cargar parametros
         cy.fixture('parametros').then(function(param){
