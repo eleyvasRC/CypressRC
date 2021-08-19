@@ -28,6 +28,7 @@ describe('CP Detonación de eventos', function()
             //Click en botón Iniciar Sesión
             cy.get(':nth-child(4) > .login100-form-btn').click()
             //
+            
         })
 
        
