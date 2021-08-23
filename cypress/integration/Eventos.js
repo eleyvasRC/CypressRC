@@ -1,5 +1,7 @@
 /// <reference types="Cypress"/>
 
+const { contains } = require("cypress/types/jquery")
+
 //Suite de primeros CP
 describe('CP Detonación de eventos', function()
 {
@@ -27,14 +29,16 @@ describe('CP Detonación de eventos', function()
 
             //Click en botón Iniciar Sesión
             cy.get(':nth-child(4) > .login100-form-btn').click()
-            //
+
+            //clic en boton hamburguesa
+            cy.get('button[class="button-menu-mobile open-left waves-effect waves-light"]').click ({ force: true })
             
         })
 
        
     })
 
-
+/*
     //CP Carga de citas exitosa
     it('Prueba detonación de eventos', function(){
 
@@ -54,10 +58,21 @@ describe('CP Detonación de eventos', function()
 
             cy.get('.has_sub a[href*="feature_key='+this.param.eventos.inic_carga+'"]').click({ force: true })
         
-        } */
-
-       
-    })  
+        } 
+        
+    }) 
+ */
    //Fin CP
+/*
+   it('Fin de Carga', function(){
 
+     // clic en icono Eventos
+        cy.get('.button-menu-mobile > .zmdi').click({ force: true })
+    //ingersar a modulo de carga de pedidos
+        cy.get('.has_sub a[href*="END_LOAD"]').click({ force: true })
+    //busqueda del folio de carga actual
+        cy.get('.sorting_1').should('contains.value','this.param.inputs_entrada.shipment')
+
+   })
+*/
 })
