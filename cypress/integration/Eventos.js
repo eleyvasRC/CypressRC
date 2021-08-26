@@ -72,7 +72,7 @@ describe('CP Detonación de eventos', function()
         //busqueda del folio de carga actual
         cy.get('.sorting_1').contains(this.param.inputs_entrada.shipment).should('be.visible')
         //Clic en boton Detalle de viaje
-        cy.get(':nth-child(5) > .btn').contains(this.param.inputs_entrada.shipment).should('be.visible').click()
+        cy.get(':nth-child(5) > .btn').should('be.visible').click()
         cy.wait(3000)
         //Validar Pedido contenga el # de viaje
         cy.get('.card-order-header > h5').contains(this.param.Detalles_de_viaje.pedido).should('be.visible')//.should('be.visible',this.param.Detalles_de_viaje.pedido)//
