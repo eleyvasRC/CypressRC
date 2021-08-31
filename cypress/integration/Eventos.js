@@ -41,6 +41,7 @@ describe('CP Detonación de eventos', function()
             cy.get('.has_sub a[href*="feature_key='+this.param.eventos.entrada+'"]').click({ force: true })
            }
        })
+       
        /* const ini_carg = cy.get('.has_sub a[href*="feature_key='+this.param.eventos.inic_carga+'"]')
 
         if(ent != null ){
