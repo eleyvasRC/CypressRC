@@ -7,12 +7,16 @@
     {
     "url_amb": "https://hydra.qa.rcontrol.com.mx/User/LogOut"
     },
-  "credenciales":
+  "credenciales_ayvi":
     {
     "user": "admin_ayvi",
     "password": "Password123$"
     },
-
+    "credenciales_autozone":
+    {
+    "user": "admin_autozone",
+    "password": "Password123$"
+    },
   "planeacion":
     {        
     "carga_citas": "APPOINTMENT_LOAD",
