@@ -37,7 +37,6 @@ describe('CP Detonación de eventos', function()
     })
 
            it('Fin de Carga', function(){
-
         
         //ingersar a modulo de carga de pedidos
         cy.get('.has_sub a[href*="END_LOAD"]').click({ force: true })
