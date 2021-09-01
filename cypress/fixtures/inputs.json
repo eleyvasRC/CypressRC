@@ -14,5 +14,11 @@
         "credencial_condutor": "70525",
         "shipment": "ESTEBAN0401",
         "eco_caja": "123"
+        }, 
+    "inputs_fin_carga":
+        {
+        "credencial_condutor": "70525",
+        "shipment": "ESTEBAN0401",
+        "eco_caja": "123"
         }
 }
