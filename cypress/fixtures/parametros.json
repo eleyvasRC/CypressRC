@@ -3,9 +3,9 @@
     "url_amb": "https://hydra.qa.rcontrol.com.mx/User/LogOut"
   },
   "credenciales": {
-    "user": "admin_ayvi",
+    "user": "admin_orbis",
     "password1": "Password123",
-    "password": "Password123$"
+    "password": "Password135$"
   },
   "Pop_Up":{
     "Texto_pop_up":"Datos incorrectos",
@@ -34,7 +34,7 @@
   },
   "archivos": {
     "carga_citas_txt_": "Citas_pruebas_qa.txt",
-    "carga_citas_txt": "Carga_citas_ayvi.txt",
+    "carga_citas_txt": "Carga_citas_Herdez.txt",
     "nume": "5",
     "nume2": "4"
   }

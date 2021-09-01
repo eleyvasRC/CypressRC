@@ -34,37 +34,9 @@ describe('CP Detonación de eventos', function()
             // clic en icono Eventos
             cy.get('.button-menu-mobile > .zmdi').click({ force: true })            
         })
-
-       
     })
 
-/*
-    //CP Carga de citas exitosa
-    it('Prueba detonación de eventos', function(){
-
-       cy.get('.has_sub a[href*="feature_key='+this.param.eventos.entrada+'"]').each(($el, index, $list) => {
-          
-            if($el.contents(this.param.eventos.inic_carga)){
-            cy.get('.has_sub a[href*="feature_key='+this.param.eventos.entrada+'"]').click({ force: true })
-           }
-       })
-       /* const ini_carg = cy.get('.has_sub a[href*="feature_key='+this.param.eventos.inic_carga+'"]')
-
-        if(ent != null ){
-
-            cy.get('.has_sub a[href*="feature_key='+this.param.eventos.entrada+'"]').click({ force: true })
-       
-        }else if(ini_carg != null){
-
-            cy.get('.has_sub a[href*="feature_key='+this.param.eventos.inic_carga+'"]').click({ force: true })
-        
-        } 
-        
-    }) 
- */
-   //Fin CP
-
-   it('Fin de Carga', function(){
+           it('Fin de Carga', function(){
 
         
         //ingersar a modulo de carga de pedidos
