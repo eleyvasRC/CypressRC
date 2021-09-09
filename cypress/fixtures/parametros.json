@@ -1,11 +1,11 @@
 {
   "ambiente": {
-    "url_amb": "https://hydra.qa.rcontrol.com.mx/User/LogOut"
+    "url_amb": "https://xhydra.qa.rcontrol.com.mx/Corp/index.html"
   },
   "credenciales": {
-    "user": "admin_orbis",
+    "user": "admin_herdez1",
     "password1": "Password123",
-    "password": "Password135$"
+    "password": "Password21$"
   },
   "Pop_Up":{
     "Texto_pop_up":"Datos incorrectos",
@@ -19,6 +19,7 @@
   },
   "eventos": {
     "entrada": "ENTRANCE",
+    "entrada_generica2": "GENERIC_02",
     "inic_carga": "START_LOAD",
     "fin_carga": "END_LOAD",
     "docs": "ENTRANCE",
@@ -26,15 +27,16 @@
   },
   "inputs_entrada": {
     "credencial_condutor": "70525",
-    "shipment": "MIKE8877"
+    "shipment": "TESTMIKE"
   },
   "Detalles_de_viaje":{
     "pedido":"PEDIDO1367",
-    "Cita_de_entrega":"2021-08- 20:00:00"
+    "Cita_de_entrega":"2021-08-07 20:00:00",
+    "Cita_de_carga":"2021-09-07 18:53:00"
   },
   "archivos": {
     "carga_citas_txt_": "Citas_pruebas_qa.txt",
-    "carga_citas_txt": "Carga_citas_Herdez.txt",
+    "carga_citas_txt": "Citas_pruebas_Herdez.txt",
     "nume": "5",
     "nume2": "4"
   }
